@@ -1,0 +1,32 @@
+body {
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+#compactBar {
+    height: 56px;
+}
+
+#mainNav,
+.footer-band {
+    background-color: tan;
+}
+
+#mainNav {
+    top: 56px;
+    --bs-navbar-active-color: white;
+    --bs-navbar-hover-color: white;
+}
+
+#mainNav .dropdown-toggle::after {
+    display: none;
+}
+
+.footer-band .nav {
+    --bs-nav-link-color: dimgray;
+    --bs-nav-link-hover-color: gray;
+}
+
+.powered {
+    font-family: "Playfair Display", serif;
+    font-variant: small-caps;
+}
